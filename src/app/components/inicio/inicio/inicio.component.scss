@@ -1,0 +1,14 @@
+:host{
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+    .inicio{
+
+        &_inicio_carrusel{
+            border-radius: 5%;
+        }
+
+        &_frase{
+            font-family: 'Noto Sans', sans-serif;
+        }
+
+    }
+}
