@@ -1,0 +1,36 @@
+:host{
+    .nosotros{
+
+        &_imagen{
+            .img-fluid{
+                width: 200px;
+                margin-left: 30%;
+                margin-top: 10px;
+            }
+        }
+
+
+        &_historia{
+            // border: black 1px solid;
+            .titulo{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            .descripcion{
+                text-align: justify;
+            }
+
+        }
+
+    }
+
+    // @media (max-width: 992px) {
+    //     &_imagen{
+    //         .img-fluid{
+    //             margin-left: 60%;
+
+    //         }
+    //     }
+        
+    // }
+}

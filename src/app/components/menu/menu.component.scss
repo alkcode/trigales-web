@@ -1,12 +1,40 @@
 :host{
     .menu{
-        background: rgb(2, 173, 2) !important;
+        background: rgb(2, 173, 2);
         padding: 10px;
+
+        &_items .navlink{
+            color: black !important;
+        }
+
+        .nav.link{
+            text-decoration: none;
+            color: black !important;
+        }
         
+        .nav-link:hover {
+            background-color: rgb(255, 196, 0);
+            border-radius: 30px;
+            color: white;
+           
+        }
+
+        // .active{
+        //     background-color: rgb(255, 196, 0);
+        //     border-radius: 30px;
+        //     color: white;
+        // }
 
         &_letras{
             color: yellow;
         }
+
+        &_resp{
+            background: yellow;
+        }
+         &_content:hover {
+            display: block;
+          }
     }
 
 }
