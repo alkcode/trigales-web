@@ -7,6 +7,10 @@ import { InicioComponent } from './components/inicio/inicio/inicio.component';
 import { NosotrosComponent } from './components/nosotros/nosotros/nosotros.component';
 import { ServiciosComponent } from './components/servicios/servicios/servicios.component';
 import { PedidosComponent } from './components/pedidos/pedidos/pedidos.component';
+import { PastelesComponent } from './components/producto/pasteles/pasteles.component';
+import { PaysflanesComponent } from './components/producto/paysflanes/paysflanes.component';
+import { IndividualesComponent } from './components/producto/individuales/individuales.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +19,11 @@ import { PedidosComponent } from './components/pedidos/pedidos/pedidos.component
     InicioComponent,
     NosotrosComponent,
     ServiciosComponent,
-    PedidosComponent
+    PedidosComponent,
+    PastelesComponent,
+    PaysflanesComponent,
+    IndividualesComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

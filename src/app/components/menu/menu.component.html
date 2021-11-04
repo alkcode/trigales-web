@@ -1,7 +1,7 @@
 <div class="container-fluid">
-  <nav class="navbar navbar-expand-lg menu">
+  <nav class="navbar sticky-top navbar-expand-lg menu">
     <div class="container-fluid">
-      <a class="navbar-brand menu_letras" href="#">
+      <a class="navbar-brand menu_letras" [routerLink]="['/']">
         <img src="../../../assets/images/logo 2016.png" alt="" width="30" height="30">
         Trigales de Oro
       </a>
@@ -16,21 +16,33 @@
               Productos
             </a>
             <ul class="dropdown-menu menu_navbar_content ms-3" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item text-center" href="#">Pasteles</a></li>
-              <li><a class="dropdown-item text-center" href="#">Pays y flanes</a></li>
-              <li><a class="dropdown-item text-center" href="#">Pasteles miniatura</a></li>
+              <li class=" d-flex">
+                <a class="dropdown-item text-center" [routerLink]="['/pasteles']">Pasteles
+                  <img class="img-fluid" width="40px" src="https://img.icons8.com/cotton/64/000000/cake.png" />
+                </a>
+              </li>
+
+              <li class=" d-flex">
+                <a class="dropdown-item text-center" [routerLink]="['/pays-flanes']">Pays y flanes
+                  <img width="40px" src="https://img.icons8.com/cotton/64/000000/piece-of-lemon-cake.png"/>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item text-center" [routerLink]="['/individuales']">Pasteles individuales
+                  <img width="40px" src="https://img.icons8.com/cotton/64/000000/cupcake.png"/>
+                </a>
+              </li>
             </ul>
           </li>
           <a class="nav-link ms-2" [routerLinkActive]="['active']" [routerLink]="['pedidos']">Pedidos</a>
           <a class="nav-link ms-2" [routerLinkActive]="['active']" [routerLink]="['/servicios']">Servicios</a>
-          <!-- <a class="nav-link ms-2" [routerLinkActive]="['active']" [routerLink]="['/reconocimientos']">Contacto
-          </a> -->
         </div>
 
       </div>
 
-      <button class="navbar-toggler menu_resp" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler menu_resp" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+        aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
     </div>
