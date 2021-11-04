@@ -6,6 +6,7 @@ import { MenuComponent } from './components/menu/menu.component';
 import { InicioComponent } from './components/inicio/inicio/inicio.component';
 import { NosotrosComponent } from './components/nosotros/nosotros/nosotros.component';
 import { ServiciosComponent } from './components/servicios/servicios/servicios.component';
+import { PedidosComponent } from './components/pedidos/pedidos/pedidos.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { ServiciosComponent } from './components/servicios/servicios/servicios.c
     MenuComponent,
     InicioComponent,
     NosotrosComponent,
-    ServiciosComponent
+    ServiciosComponent,
+    PedidosComponent
   ],
   imports: [
     BrowserModule,

@@ -6,26 +6,25 @@
         Trigales de Oro
       </a>
 
-      <div class="collapse navbar-collapse justify-content-center pt-2 mx-3" id="navbarNavAltMarkup">
+      <div class="collapse navbar-collapse justify-content-center pt-2 mx-3 menu_navbar" id="navbarNavAltMarkup">
         <div class="navbar-nav menu_items text-center mb-3">
           <a class="nav-link ms-2" aria-current="page" [routerLinkActive]="['active']" [routerLink]="['/']">Inicio</a>
           <a class="nav-link ms-2" [routerLinkActive]="['active']" [routerLink]="['/nosotros']">Nosotros</a>
-          <a class="nav-link ms-2" [routerLinkActive]="['active']" [routerLink]="['/servicios']">Servicios</a>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
               data-bs-toggle="dropdown" aria-expanded="false">
               Productos
             </a>
-            <ul class="dropdown-menu menu_content ms-3" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="#">Pasteles</a></li>
-              <li><a class="dropdown-item" href="#">Pays y flanes</a></li>
-              <li><a class="dropdown-item" href="#">Pasteles miniatura</a></li>
+            <ul class="dropdown-menu menu_navbar_content ms-3" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item text-center" href="#">Pasteles</a></li>
+              <li><a class="dropdown-item text-center" href="#">Pays y flanes</a></li>
+              <li><a class="dropdown-item text-center" href="#">Pasteles miniatura</a></li>
             </ul>
           </li>
-          <a class="nav-link ms-2" [routerLinkActive]="['active']" [routerLink]="['/reconocimientos']">Pedidos
-          </a>
-          <a class="nav-link ms-2" [routerLinkActive]="['active']" [routerLink]="['/reconocimientos']">Contacto
-          </a>
+          <a class="nav-link ms-2" [routerLinkActive]="['active']" [routerLink]="['pedidos']">Pedidos</a>
+          <a class="nav-link ms-2" [routerLinkActive]="['active']" [routerLink]="['/servicios']">Servicios</a>
+          <!-- <a class="nav-link ms-2" [routerLinkActive]="['active']" [routerLink]="['/reconocimientos']">Contacto
+          </a> -->
         </div>
 
       </div>
