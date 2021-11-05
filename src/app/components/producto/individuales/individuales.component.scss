@@ -1,7 +1,32 @@
 :host{
     .individuales{
         &_card{
+            border: 1px solid rgb(229, 73, 250);
+            border-radius: 50px;
 
+            &_nombre{
+                font-size: 25px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+               
+            }
+
+            &_precio{
+                font-size: 30px;
+            }
+
+            &_tamano{
+                font-size: 20px;
+                font-style: italic;
+            }
+
+            &_altura{
+                font-size: 22px;
+            }
+
+            &_diametro{
+                font-size: 22px;
+            }
+            
         }
 
     }
