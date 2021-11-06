@@ -10,13 +10,14 @@
         <div class="row mt-3">
             <div class="col-lg-6 mb-3 individuales_card" *ngFor="let pastel of pasteles">
                 <img src="{{pastel.imagen}}" class="img-fluid" alt="">
-                <p class="text-center individuales_card_nombre">{{pastel.nombre}}</p>
-                <p class="text-center individuales_card_content">{{pastel.descripcion}}</p>
-                <p class="text-center individuales_card_precio">$ {{pastel.precio}}.00</p>
-                <p class="text-center individuales_card_tamano">Tamaño:</p>
-                <p class="text-center individuales_card_altura">Altura: {{pastel.altura}} cm.</p>
-                <p class="text-center individuales_card_diametro">Diametro: {{pastel.diametro}} cm.</p>
-    
+                <div class="individuales_card_content mb-2">
+                    <p class="text-center individuales_card_content_nombre mt-3">{{pastel.nombre}}</p>
+                    <p class="text-center individuales_card_content_content">{{pastel.descripcion}}</p>
+                    <p class="text-center individuales_card_content_tamano">Tamaño:</p>
+                    <p class="text-center individuales_card_content_altura">Altura: {{pastel.altura}} cm.</p>
+                    <p class="text-center individuales_card_content_diametro">Diametro: {{pastel.diametro}} cm.</p>
+                    <p class="text-center individuales_card_content_precio">$ {{pastel.precio}}.00</p>
+                </div>
             </div>
         </div>
 

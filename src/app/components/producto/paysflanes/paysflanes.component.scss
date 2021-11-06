@@ -1,0 +1,17 @@
+:host{
+    .pfmenu{
+        &_titulo{
+            border-radius: 20px;
+            background-color: rgb(255, 208, 0);
+        }
+
+        &_content{
+
+            &_titulo{
+                border-radius: 40px;
+                background-color: rgb(255, 208, 0);
+            }
+        }
+
+    }
+}
