@@ -1,0 +1,26 @@
+:host{
+    .pastelmenu{
+        &_titulo{
+            border-radius: 20px;
+            background-color: rgb(255, 208, 0);
+        }
+
+        h2:hover{
+            background: rgb(2, 173, 2);
+            color: white;
+            transition: 1s;
+        }
+
+        &_content{
+            a{
+                text-decoration: none;
+                color: black;
+            }
+            &_titulo{
+                border-radius: 40px;
+                background-color: rgb(255, 208, 0);
+            }
+        }
+
+    }
+}

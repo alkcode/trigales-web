@@ -14,6 +14,10 @@ import { FooterComponent } from './components/footer/footer.component';
 import { PaysencilloComponent } from './components/producto/pf/paysencillo/paysencillo.component';
 import { PaydecoradoComponent } from './components/producto/pf/paydecorado/paydecorado.component';
 import { FlanesComponent } from './components/producto/pf/flanes/flanes.component';
+import { EnvinadoComponent } from './components/producto/pastel/envinado/envinado.component';
+import { BarrasComponent } from './components/producto/pastel/barras/barras.component';
+import { EventosComponent } from './components/producto/pastel/eventos/eventos.component';
+import { TreslechesComponent } from './components/producto/pastel/tresleches/tresleches.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +33,11 @@ import { FlanesComponent } from './components/producto/pf/flanes/flanes.componen
     FooterComponent,
     PaysencilloComponent,
     PaydecoradoComponent,
-    FlanesComponent
+    FlanesComponent,
+    EnvinadoComponent,
+    BarrasComponent,
+    EventosComponent,
+    TreslechesComponent
   ],
   imports: [
     BrowserModule,

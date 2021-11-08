@@ -1,0 +1,46 @@
+:host{
+    .paydecorado{
+
+        &_titulo{
+            border-radius: 20px;
+            background-color: rgb(255, 208, 0);
+        }
+
+        &_card{
+            border: 1px solid rgb(229, 73, 250);
+            border-radius: 50px;
+            //background: rgb(3, 153, 11);
+
+            &_content{
+                border: 1px solid rgb(229, 73, 250);
+                border-radius: 50px;
+                background: rgb(245, 214, 128);
+
+                &_nombre{
+                    font-size: 25px;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                   
+                }
+    
+                &_precio{
+                    font-size: 30px;
+                }
+    
+                &_tamano{
+                    font-size: 20px;
+                    font-style: italic;
+                }
+    
+                &_altura{
+                    font-size: 22px;
+                }
+    
+                &_diametro{
+                    font-size: 22px;
+                }
+
+            }
+   
+        }
+    }
+}
