@@ -7,6 +7,7 @@ import { PedidosComponent } from './app/components/pedidos/pedidos/pedidos.compo
 import { PastelesComponent } from './app/components/producto/pasteles/pasteles.component';
 import { PaysflanesComponent } from './app/components/producto/paysflanes/paysflanes.component';
 import { IndividualesComponent } from './app/components/producto/individuales/individuales.component';
+import { PaysencilloComponent } from './app/components/producto/pf/paysencillo/paysencillo.component';
 
 
 
@@ -17,6 +18,7 @@ const appRoutes: Routes=[
     {path:'pedidos', component: PedidosComponent},
     {path:'pasteles', component: PastelesComponent},
     {path:'pays-flanes', component: PaysflanesComponent},
+    {path:'pays-flanes/pays-sencillo', component: PaysencilloComponent},
     {path:'individuales', component: IndividualesComponent},
 
 ];

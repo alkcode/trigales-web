@@ -11,6 +11,9 @@ import { PastelesComponent } from './components/producto/pasteles/pasteles.compo
 import { PaysflanesComponent } from './components/producto/paysflanes/paysflanes.component';
 import { IndividualesComponent } from './components/producto/individuales/individuales.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { PaysencilloComponent } from './components/producto/pf/paysencillo/paysencillo.component';
+import { PaydecoradoComponent } from './components/producto/pf/paydecorado/paydecorado.component';
+import { FlanesComponent } from './components/producto/pf/flanes/flanes.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +26,10 @@ import { FooterComponent } from './components/footer/footer.component';
     PastelesComponent,
     PaysflanesComponent,
     IndividualesComponent,
-    FooterComponent
+    FooterComponent,
+    PaysencilloComponent,
+    PaydecoradoComponent,
+    FlanesComponent
   ],
   imports: [
     BrowserModule,

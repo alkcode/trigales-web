@@ -1,13 +1,15 @@
 <div class="container-fluid individuales">
     <div class="row mt-5">
-        <div class="col-md-12">
+        <div class="col-md-4"></div>
+        <div class="col-md-4 individuales_titulo">
             <h1 class="text-center">Pasteles individuales</h1>
         </div>
+        <div class="col-md-4"></div>
     </div>
 
     <!-- Sin Card -->
-    <div class="container">
-        <div class="row mt-3">
+    <div class="container mt-5">
+        <div class="row">
             <div class="col-lg-6 mb-3 individuales_card" *ngFor="let pastel of pasteles">
                 <img src="{{pastel.imagen}}" class="img-fluid" alt="">
                 <div class="individuales_card_content mb-2">
