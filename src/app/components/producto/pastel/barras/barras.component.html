@@ -1,1 +1,32 @@
-<p>barras works!</p>
+<div class="container-fluid barras">
+    <div class="row mt-5">
+        <div class="col-md-4"></div>
+        <div class="col-md-4 barras_titulo">
+            <h1 class="text-center">Pasteles individuales</h1>
+        </div>
+        <div class="col-md-4"></div>
+    </div>
+
+    <!-- Sin Card -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-12 mb-3">
+                <h2 class="text-center">Precio en tienda</h2>
+            </div>
+            <div class="col-lg-6 mb-3 barras_card" *ngFor="let pastel of barras">
+                <img src="{{pastel.imagen}}" class="img-fluid" alt="">
+                <div class="barras_card_content mb-2">
+                    <p class="text-center barras_card_content_nombre mt-3">{{pastel.nombre}}</p>
+                    <p class="text-center barras_card_content_content">{{pastel.descripcion}}</p>
+                    <p class="text-center barras_card_content_tamano">Tamaño:</p>
+                    <p class="text-center barras_card_content_altura">Altura: {{pastel.altura}} cm.</p>
+                    <p class="text-center barras_card_content_diametro">Ancho: {{pastel.ancho}} cm.</p>
+                    <p class="text-center barras_card_content_diametro">Largo: {{pastel.largo}} cm.</p>
+                    <p class="text-center barras_card_content_precio">$ {{pastel.precio}}.00</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>

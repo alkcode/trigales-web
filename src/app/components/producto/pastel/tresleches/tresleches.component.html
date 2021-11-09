@@ -1,1 +1,32 @@
-<p>tresleches works!</p>
+<div class="container-fluid tresleches">
+    <div class="row mt-5">
+        <div class="col-md-4"></div>
+        <div class="col-md-4 tresleches_titulo">
+            <h1 class="text-center">Pasteles 3 Leches</h1>
+        </div>
+        <div class="col-md-4"></div>
+    </div>
+
+    <!-- Sin Card -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-12 mb-3">
+                <h2 class="text-center">Precio en tienda</h2>
+            </div>
+            <div class="col-lg-6 mb-3 pb-3 tresleches_card" *ngFor="let pastel of pasteles">
+                <img src="{{pastel.imagen}}" class="img-fluid" alt="{{pastel.nombre}}">
+                <div class="tresleches_card_content mb-2">
+                    <p class="text-center tresleches_card_content_nombre mt-3">{{pastel.nombre}}</p>
+                    <p class="text-center tresleches_card_content_content">{{pastel.descripcion}}</p>
+                    <p class="text-center tresleches_card_content_tamano">Tamaño:</p>
+                    <p class="text-center tresleches_card_content_altura">Altura: {{pastel.altura}} cm.</p>
+                    <p class="text-center tresleches_card_content_diametro">Diametro: {{pastel.diametro}} cm.</p>
+                    <p class="text-center tresleches_card_content_precio">$ {{pastel.precio}}.00</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+

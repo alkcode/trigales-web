@@ -18,7 +18,8 @@ import { EventosComponent } from './app/components/producto/pastel/eventos/event
 
 
 const appRoutes: Routes=[
-    {path:'', component: InicioComponent},
+    {path:'', redirectTo:'inicio', pathMatch:'full'},
+    {path:'inicio', component: InicioComponent},
     {path:'nosotros', component: NosotrosComponent},
     {path:'servicios', component: ServiciosComponent},
     {path:'pedidos', component: PedidosComponent},

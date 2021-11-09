@@ -16,6 +16,14 @@
                 text-decoration: none;
                 color: black;
             }
+
+            img:hover{
+                background-color: rgb(246, 232, 168);
+                border-radius: 20px;
+                color: blue;
+                transition: 1s;
+            }
+
             &_titulo{
                 border-radius: 40px;
                 background-color: rgb(255, 208, 0);
