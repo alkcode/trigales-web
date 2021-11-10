@@ -8,6 +8,13 @@
                 color: white !important;
                 font-size: 25px;
             }
+
+            .active{
+                // color: rgba(0, 110, 255, 0.829) !important;
+                background-color: rgb(255, 196, 0);
+                border-radius: 30px;
+            }
+
         }
         .dropdown-item{
             color: black !important;

@@ -1,6 +1,10 @@
 :host{
     .nosotros{
 
+        // &_titulo{
+
+        // }
+
         &_imagen{
             .img-fluid{
                 width: 200px;
@@ -22,6 +26,13 @@
 
         }
 
+        &_images{
+
+            img{
+                border-radius: 50px;
+            }
+           
+        }
     }
 
     // @media (max-width: 992px) {
