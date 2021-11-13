@@ -29,19 +29,14 @@
            
         }
 
-        // .active{
-        //     background-color: rgb(255, 196, 0);
-        //     border-radius: 30px;
-        //     color: white;
-        // }
-
         &_letras{
             color: yellow;
         }
 
-        &_resp{
-            background: yellow;
-        }
+        // &_response{
+        //     background: yellow;
+        // }
+
          &_content:hover {
             display: block;
           }
