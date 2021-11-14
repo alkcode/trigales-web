@@ -18,6 +18,7 @@ import { EnvinadoComponent } from './components/producto/pastel/envinado/envinad
 import { BarrasComponent } from './components/producto/pastel/barras/barras.component';
 import { EventosComponent } from './components/producto/pastel/eventos/eventos.component';
 import { TreslechesComponent } from './components/producto/pastel/tresleches/tresleches.component';
+import { BotonUPComponent } from './components/boton-up/boton-up.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { TreslechesComponent } from './components/producto/pastel/tresleches/tre
     EnvinadoComponent,
     BarrasComponent,
     EventosComponent,
-    TreslechesComponent
+    TreslechesComponent,
+    BotonUPComponent
   ],
   imports: [
     BrowserModule,

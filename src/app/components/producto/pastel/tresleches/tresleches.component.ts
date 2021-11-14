@@ -1,3 +1,4 @@
+// import { DOCUMENT } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { Pastel } from '../../../../models/pastel';
 
