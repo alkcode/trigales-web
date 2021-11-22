@@ -9,6 +9,7 @@ import { Pastel } from '../../../models/pastel';
 export class IndividualesComponent implements OnInit {
 
   public pasteles: Pastel[] =[];
+  public filterPasteles:string = '';
 
   constructor() { 
     //Definimos el array de pasteles indivuduales

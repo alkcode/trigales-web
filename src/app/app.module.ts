@@ -19,6 +19,8 @@ import { BarrasComponent } from './components/producto/pastel/barras/barras.comp
 import { EventosComponent } from './components/producto/pastel/eventos/eventos.component';
 import { TreslechesComponent } from './components/producto/pastel/tresleches/tresleches.component';
 import { BotonUPComponent } from './components/boton-up/boton-up.component';
+import { FilterPipe } from './pipes/filter.pipe';
+import { LocationStrategy, HashLocationStrategy } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -39,13 +41,17 @@ import { BotonUPComponent } from './components/boton-up/boton-up.component';
     BarrasComponent,
     EventosComponent,
     TreslechesComponent,
-    BotonUPComponent
+    BotonUPComponent,
+    FilterPipe
   ],
   imports: [
     BrowserModule,
     routing
   ],
-  providers: [appRoutingProviders],
+  providers: [appRoutingProviders,
+    {provide: LocationStrategy, useClass: HashLocationStrategy}
+  ],
   bootstrap: [AppComponent]
+ 
 })
 export class AppModule { }

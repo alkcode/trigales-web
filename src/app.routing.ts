@@ -1,5 +1,6 @@
 import { Routes, RouterModule } from '@angular/router';
 import { ModuleWithProviders } from '@angular/core';
+import { LocationStrategy, HashLocationStrategy } from '@angular/common';
 import { InicioComponent } from './app/components/inicio/inicio/inicio.component';
 import { NosotrosComponent } from './app/components/nosotros/nosotros/nosotros.component';
 import { ServiciosComponent } from './app/components/servicios/servicios/servicios.component';
@@ -39,4 +40,4 @@ const appRoutes: Routes=[
 
 //Exportar el modulo de rutas
 export const appRoutingProviders: any[] = [];
-export const routing: ModuleWithProviders<any> = RouterModule.forRoot(appRoutes);
+export const routing: ModuleWithProviders<any> = RouterModule.forRoot(appRoutes,{ useHash: true });
